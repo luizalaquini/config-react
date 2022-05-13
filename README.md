@@ -19,7 +19,7 @@ OBS: Antes de tudo as extensões devem estar instaladas no Visual Studio Code:
 
 ## Eslint
 1) $ npx eslint --init
-2*) [APENAS NA PRIMEIRA VEZ]
+2) [APENAS NA PRIMEIRA VEZ]
   - Vá nas configuracoes do VS Code clicando no ícone da engrenagem 
   - Clique no ícone no canto superior direito que transforma as configurações em código ("settings.json")
   - Adicione ao código:
