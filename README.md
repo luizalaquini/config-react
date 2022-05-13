@@ -35,3 +35,9 @@ OBS: Antes de tudo as extensões devem estar instaladas no Visual Studio Code:
     "jest": true,
     
 6) Verificar se tudo está rodando corretamente em Terminal>Saída>ESLint
+
+OBS: O ideal é fazer essas configurações no início de um projeto, mas, se já for um projeto em andamento, faça o seguinte para aplicar correções:
+
+$ npx eslint src/**/*.jsx --fix
+
+$ npx eslint src/**/*.js --fix
