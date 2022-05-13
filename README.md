@@ -41,3 +41,13 @@ OBS: O ideal é fazer essas configurações no início de um projeto, mas, se j�
 $ npx eslint src/**/*.jsx --fix
 
 $ npx eslint src/**/*.js --fix
+
+## Extra: Prop Types
+
+Aproveite o clima de configurações e já deixe o prop types instalado com:
+
+$ npm i prop-types
+
+OBS: Na hora de usar lembre-se de importar a biblioteca:
+
+import P from 'prop-types'
