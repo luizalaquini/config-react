@@ -19,8 +19,7 @@ OBS: Antes de tudo as extensões devem estar instaladas no Visual Studio Code:
 
 ## Eslint
 1) $ npx eslint --init
-2) Alterar arquivo para que fique igual ao disponível nesse repositório.
-3) [APENAS NA PRIMEIRA VEZ]
+2*) [APENAS NA PRIMEIRA VEZ]
   - Vá nas configuracoes do VS Code clicando no ícone da engrenagem 
   - Clique no ícone no canto superior direito que transforma as configurações em código ("settings.json")
   - Adicione ao código:
@@ -29,4 +28,10 @@ OBS: Antes de tudo as extensões devem estar instaladas no Visual Studio Code:
         "source.fixAll.eslint": true,
         "source.fixAll": true
     }
-4) import React from 'react'; (Fazer importação no App.js para resolver erros)
+3) import React from 'react'; (Fazer importação no App.js para resolver erros)
+4) $ npm i -D prettier eslint-config-prettier eslint-plugin-prettier
+5) Adicionar em .eslintrc.js dentro do grupo "env" a linha:
+
+    "jest": true,
+    
+6) Verificar se tudo está rodando corretamente em Terminal>Saída>ESLint
